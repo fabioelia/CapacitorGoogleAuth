@@ -45,7 +45,7 @@ Add `REVERSED_CLIENT_ID` as url scheme to `Info.plist`
 Inside your `strings.xml`
 ```xml
 <resources>
-  <string name="server_client_id">Your Web Client Key</string>
+  <string name="server_client_id">YOUR WEB CLIENT KEY NOT YOUR ANDROID KEY</string>
 </resources>
 ```
 
@@ -63,6 +63,7 @@ this.init(savedInstanceState, new ArrayList<Class<? extends Plugin>>() {{
 
 ### Configure
 Provide configuration in root `capacitor.config.json`
+Make sure you use your Android Client Key for this setting
 ```json
 {
   "plugins": {
